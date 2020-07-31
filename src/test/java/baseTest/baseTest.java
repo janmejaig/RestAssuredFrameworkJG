@@ -12,8 +12,8 @@ import utilis.fileandEnv;
 
 public class baseTest extends extentReportListner{
 
-	@BeforeClass
-	public void baseTest() {
+	//@BeforeClass
+	public baseTest() {
 		
 		//System.out.println(fileandEnv.endAndFile().get("Serverurl"));
 		

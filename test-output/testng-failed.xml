@@ -6,7 +6,6 @@
       <class name="jiraIssueApi.getexistingJiraIssue">
         <methods>
           <include name="getExistingIssueList"/>
-          <include name="baseTest"/>
         </methods>
       </class> <!-- jiraIssueApi.getexistingJiraIssue -->
     </classes>

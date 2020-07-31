@@ -33,7 +33,7 @@ apiVerification.responseCodeValiddation(response, 200);
 		
 		apiVerification.responseTimeValidation(response);
 		
-	test.log(LogStatus.INFO,"my test is ended ");
+//	test.log(LogStatus.INFO,"my test is ended ");
 
 
 //		System.out.println(response.getBody().asString());

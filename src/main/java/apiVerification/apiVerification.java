@@ -21,7 +21,7 @@ public class apiVerification extends extentReportListner {
 			test.log(LogStatus.FAIL,
 					"Expected status code is :: " + statusCode + " , insted of getting :: " + response.getStatusCode());
 		} catch (Exception e) {
-		test.log(LogStatus.FAIL, e.fillInStackTrace());
+		//test.log(LogStatus.FAIL, e.fillInStackTrace());
 		}
 	}
 
@@ -59,7 +59,7 @@ public class apiVerification extends extentReportListner {
 			long time=response.time();
 			test.log(LogStatus.INFO, "Api response time is :: " + time);
 		} catch (Exception e) {
-			test.log(LogStatus.FAIL, e.fillInStackTrace());
+	//		test.log(LogStatus.FAIL, e.fillInStackTrace());
 		}
 	}
 
